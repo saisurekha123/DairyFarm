@@ -34,6 +34,9 @@ h2 {
 	font-size: 1.4em;
 	line-height: 2.8em;
 }
+h2.login-box-heading{
+    color: beige;
+}
 
 a {
 	text-decoration: none;
