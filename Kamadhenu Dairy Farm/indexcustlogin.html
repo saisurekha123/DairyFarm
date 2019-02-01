@@ -169,7 +169,7 @@
                             <div class="tab-content features-content">
                                 <div role="tabpanel" class="tab-pane fade in active" id="f1">
                                     <h4>Enter from and to dates</h4>
-                                    <form action="/action_page.php">
+                                   
                                         <div class="form-group">
                                             <!-- From Date -->
                                             <label for="from">From</label>
@@ -183,7 +183,7 @@
                                           <div class="text-center">
                                             <input type="submit" class="btn btn-primary tf-btn color margin-bottom-medium" value="Submit" onclick="startLogin()">
                                         </div>
-                                    </form>
+                                    
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="f2">
                                     <div class="form-group">
@@ -510,14 +510,8 @@
                                             <h4>Enter from and to dates</h4>
                                             <form action="">
                                                 <div class="form-group">
-                                                    <!-- From Date -->
-                                                    <label for="from">From</label>
-                                                    <input type="date" autocomplete="off" class="form-control" id="from" name="from">
-                                                </div>
-                                                <div class="form-group">
-                                                    <!-- To Date -->
-                                                    <label for="to">To</label>
-                                                    <input type="date" autocomplete="off" class="form-control" id="to" name="to">
+                                                    <div id="print-array" style="position:relative"></div>
+                                                    <div id="datepicker"></div>              
                                                 </div>
                                                 <div class="text-center">
                                                     <input type="submit" class="btn btn-primary tf-btn color margin-bottom-medium" value="Submit">
@@ -778,7 +772,12 @@
             <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
             <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
             <script type="text/javascript" src="js/contact.js"></script>
-
+            
+    <link href="https://cdn.rawgit.com/dubrox/Multiple-Dates-Picker-for-jQuery-UI/master/jquery-ui.multidatespicker.css" rel="stylesheet" />
+    <link href="https://code.jquery.com/ui/1.12.1/themes/pepper-grinder/jquery-ui.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.rawgit.com/dubrox/Multiple-Dates-Picker-for-jQuery-UI/master/jquery-ui.multidatespicker.js"></script>
+    <script type="text/javascript" src="js/AbsentDates.js"></script>
             <script type="text/javascript" src="js/main.js"></script>
             <script>
                 $(document).ready(() => {
