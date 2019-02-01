@@ -150,6 +150,22 @@ a:focus {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
 }
+.trans_purchase_result {
+    font-family: 'Josefin Sans', sans-serif;
+   background-color: rgba(243, 249, 249,0.45); /* Black w/ opacity */
+    text-align: center;
+    display:none;
+    position: fixed; /* Stay in place */
+    z-index: 91; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+th{
+    text-align:center;
+}
 .trans_mainpage a{
     transition:0.5s all;
     -webkit-transition:0.5s all;

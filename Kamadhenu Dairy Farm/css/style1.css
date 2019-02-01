@@ -25,7 +25,9 @@ h1#title {
 h1#title span span {
 	font-weight: 400;
 }
-
+.margin-bottom-medium{
+    margin-top:40px;
+}
 h2 {
 	text-transform: uppercase;
 	color: inherit;
@@ -261,4 +263,10 @@ a.animated-button.victoria-four:after {
 a.animated-button.victoria-four:hover:after {
 	opacity: 1;
 	height: 600% !important;
+}
+#print-array {
+    position:fixed;
+    top:0;
+    right:0;
+    padding: 20px;
 }
